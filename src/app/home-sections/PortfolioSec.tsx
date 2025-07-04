@@ -8,6 +8,7 @@ import PortfolioCard from "@/components/PortfolioCard";
 import { motion } from "motion/react";
 import { staggerContainer } from "@/motion/animations";
 import Gallery from '@/components/Gallery';
+import Divider from '@/components/Divider';
 
 const PortfolioSec = () => {
   return (
@@ -22,8 +23,8 @@ const PortfolioSec = () => {
         <Title
           title="Portfolio"
           subtitle="Explore My photography work."
-          link="View All Works"
         />
+        <Divider />
         <Gallery images={[
           {
             id: '1',
