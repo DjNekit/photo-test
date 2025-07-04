@@ -75,7 +75,7 @@ const TestimonialsCard = () => {
           {testimonialItems.map((item) => (
             <SwiperSlide key={item.id}>
               {/* Card */}
-              <div className="bg-neutral-900 p-10 rounded-[10px] border border-neutral-800 flex flex-col gap-5 aspect-video">
+              <div className="bg-neutral-100 p-10 rounded-[10px] border border-neutral-800 flex flex-col gap-5 aspect-video">
                 {/* Card title */}
                 <div className=" flex items-center justify-between flex-wrap gap-4">
                   <div>

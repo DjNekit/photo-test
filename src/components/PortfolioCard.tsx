@@ -5,7 +5,7 @@ import Link from "next/link";
 import { RiArrowRightUpLongLine } from "@remixicon/react";
 
 //import motion
-import { motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import { fadeInUp } from "@/motion/animations";
 
 interface cardProps {
@@ -43,6 +43,7 @@ const PortfolioCard = ({ img, title, date }: cardProps) => {
           </span>
         </Link>
       </div>
+
     </motion.div>
   );
 };

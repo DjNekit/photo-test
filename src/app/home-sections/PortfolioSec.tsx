@@ -7,6 +7,7 @@ import PortfolioCard from "@/components/PortfolioCard";
 //import motion
 import { motion } from "motion/react";
 import { staggerContainer } from "@/motion/animations";
+import Gallery from '@/components/Gallery';
 
 const PortfolioSec = () => {
   return (
@@ -18,25 +19,55 @@ const PortfolioSec = () => {
         viewport={{ once: true }}
         className="container"
       >
-        {/* Title */}
         <Title
           title="Portfolio"
           subtitle="Explore My photography work."
           link="View All Works"
         />
-
-        {/* Card wrapper */}
-        <div className="grid gap-12 mt-20 md:grid-cols-2 lg:grid-cols-3">
-          {portfolioSectionItems.map((item) => (
-            //   Card
-            <PortfolioCard
-              key={item.id}
-              img={item.imgUrl}
-              title={item.title}
-              date={item.date}
-            />
-          ))}
-        </div>
+        <Gallery images={[
+          {
+            id: '1',
+            src: '/images/portfolio-img-1.png',
+            alt: '',
+            width: 200,
+            height: 200,
+          },
+          {
+            id: '2',
+            src: '/images/portfolio-img-2.png',
+            alt: '',
+            width: 200,
+            height: 200,
+          },
+          {
+            id: '3',
+            src: '/images/portfolio-img-3.png',
+            alt: '',
+            width: 200,
+            height: 200,
+          },
+          {
+            id: '4',
+            src: '/images/portfolio-img-4.png',
+            alt: '',
+            width: 200,
+            height: 200,
+          },
+          {
+            id: '5',
+            src: '/images/portfolio-img-5.png',
+            alt: '',
+            width: 200,
+            height: 200,
+          },
+          {
+            id: '6',
+            src: '/images/portfolio-img-6.png',
+            alt: '',
+            width: 200,
+            height: 200,
+          },
+        ]}/> 
       </motion.div>
     </section>
   );

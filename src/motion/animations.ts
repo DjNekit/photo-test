@@ -5,7 +5,7 @@ export const staggerContainer: Variants = {
   hidden: {},
   show: {
     transition: {
-      staggerChildren: 0.4,
+      staggerChildren: 0.2,
     },
   },
 };

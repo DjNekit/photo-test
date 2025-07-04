@@ -19,16 +19,16 @@ const Header = () => {
       <div className="container flex justify-between items-center py-5 lg:pb-0">
         {/* Logo */}
         <Link className="text-3xl font-medium uppercase" href={"/"}>
-          Damien
+          Sergey
         </Link>
 
         {/* Mobile menu */}
         <nav className={`navbar ${isOpen ? "active" : ""} `}>
           {/* nav top */}
           <div className="flex items-center justify-between mb-8">
-            <h3 className="text-3xl font-medium uppercase">Damien</h3>
+            <h3 className="text-3xl font-medium uppercase">Sergey</h3>
             <button
-              className="w-[50px] h-[50px] border flex items-center justify-center rounded-full border-neutral-800 hover:bg-neutral-900 transition-colors"
+              className="w-[50px] h-[50px] border flex items-center justify-center rounded-full border-neutral-800 hover:bg-neutral-300 transition-colors"
               onClick={handleClick}
             >
               <RiCloseLine size={30} />
@@ -44,8 +44,8 @@ const Header = () => {
               >
                 <Link
                   href={item.path}
-                  className={`block py-5 hover:bg-neutral-900 ${
-                    pathname === item.path ? "bg-neutral-900" : ""
+                  className={`block py-5 hover:bg-neutral-300 ${
+                    pathname === item.path ? "bg-neutral-300" : ""
                   }`}
                   onClick={handleClick}
                 >
@@ -55,24 +55,16 @@ const Header = () => {
             ))}
           </ul>
 
-          {/* Contact btn */}
-          <Link
-            href="/contact"
-            className="primary-btn block text-center mt-10"
-            onClick={handleClick}
-          >
-            contact me
-          </Link>
         </nav>
 
         {/* Lg menu */}
-        <ul className="flex items-center max-lg:hidden border border-neutral-800 rounded-t-2xl overflow-hidden">
+        <ul className="flex items-center max-lg:hidden border border-neutral-800 rounded-t-2xl overflow-hidden border-b-0">
           {navItems.map((item) => (
             <li key={item.id}>
               <Link
                 href={item.path}
-                className={`px-8 py-5 block hover:bg-neutral-900 transition-colors ${
-                  pathname === item.path ? "bg-neutral-900" : ""
+                className={`px-8 py-5 block hover:bg-neutral-300 transition-colors ${
+                  pathname === item.path ? "bg-neutral-100" : ""
                 }`}
               >
                 {item.label}
@@ -82,9 +74,9 @@ const Header = () => {
         </ul>
 
         {/* lg contact btn */}
-        <Link href="/contact" className="primary-btn hidden lg:block">
+        {/* <Link href="/contact" className="primary-btn hidden lg:block">
           contact me
-        </Link>
+        </Link> */}
 
         {/* menu toggle */}
         <button className="lg:hidden" onClick={handleClick}>

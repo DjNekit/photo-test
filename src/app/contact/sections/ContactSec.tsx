@@ -23,7 +23,7 @@ const ContactSec = () => {
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <a href="#" className="hover:underline">
-              info@damien braunphotography.com
+              lipinvideo@gmail.com
             </a>
             <span>
               <RiArrowRightUpLongLine />

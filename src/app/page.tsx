@@ -11,17 +11,7 @@ const Home = () => {
     <>
       <HeroSec />
       <AboutSec />
-      <ServicesSec />
       <PortfolioSec />
-      {/* FAQ section */}
-      <section className="section">
-        <FaqSec />
-      </section>
-
-      {/* Testimonials section */}
-      <section className="section">
-        <TestimonialsCard />
-      </section>
     </>
   );
 };

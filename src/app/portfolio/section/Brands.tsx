@@ -23,7 +23,7 @@ const Brands = () => {
       {/* wrapper */}
       <motion.div
         variants={fadeIn}
-        className="mt-6 bg-neutral-900 border-y border-neutral-800"
+        className="mt-6 bg-neutral-100 border-y border-neutral-800"
       >
         <div className="container">
           <Marquee>

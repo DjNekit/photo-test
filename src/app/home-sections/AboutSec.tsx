@@ -22,7 +22,7 @@ const AboutSec = () => {
         className="container"
       >
         {/* Title */}
-        <Title subtitle="About" title="I am Damien" link="Know More" />
+        {/* <Title subtitle="About" title="I am Sergey" link="Know More" /> */}
         {/* Divider */}
         <Divider />
         {/* Wrapper */}
@@ -79,10 +79,10 @@ const AboutSec = () => {
                 <div>
                   <p>Email</p>
                   <a
-                    href="mailto:damienbraun@gmail.com"
+                    href="mailto:Sergeybraun@gmail.com"
                     className="hover:underline"
                   >
-                    damienbraun@gmail.com
+                    Sergeybraun@gmail.com
                   </a>
                 </div>
                 {/* Phone num */}
@@ -103,9 +103,6 @@ const AboutSec = () => {
                 <div className="flex flex-wrap gap-4">
                   <Link href="#" className="primary-btn w-full text-center">
                     Let’s Work
-                  </Link>
-                  <Link href="#" className="primary-btn w-full  text-center">
-                    Download CV
                   </Link>
                 </div>
               </div>

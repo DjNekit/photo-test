@@ -7,7 +7,7 @@ const SocialIcons = () => {
         <a
           href="#"
           target="_blank"
-          className="w-10 h-10 bg-neutral-800 flex items-center justify-center rounded-full aspect-square hover:bg-neutral-700 transition-colors"
+          className="w-10 h-10 flex items-center justify-center rounded-full aspect-square hover:bg-neutral-300 transition-colors"
           key={index}
         >
           {<item.icon />}

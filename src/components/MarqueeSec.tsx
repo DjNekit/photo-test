@@ -16,7 +16,7 @@ const MarqueeSec = () => {
               width={30}
               height={30}
             />
-            <p className="text-lg text-neutral-400">{item.label}</p>
+            <p className="text-lg text-neutral-900">{item.label}</p>
           </div>
         ))}
       </Marquee>
