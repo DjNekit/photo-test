@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={manrope.className}>
-      <body>
+      <body suppressHydrationWarning>
         <NextTopLoader showSpinner={false} color="#fff" />
         <Header />
         <main className="min-h-screen">{children}</main>

@@ -1,8 +1,6 @@
 "use client";
 
-import { RiArrowRightUpLongLine } from "@remixicon/react";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 // import motion
@@ -25,22 +23,30 @@ const ServicesIntroSec = ({ title, description, image }: sectionProps) => {
         viewport={{ once: true }}
         className="container grid gap-10 lg:grid-cols-2 lg:items-center"
       >
-        {/* content */}
-        <motion.div variants={fadeInUp} className="flex flex-col">
+        <motion.div 
+          variants={fadeInUp}
+          initial="hidden"
+          animate="show"
+          className="flex flex-col"
+        >
           <h2 className="mb-10 text-neutral-500">{title}</h2>
           <p>{description}</p>
-          {/* link */}
-          <div className="flex items-center mt-8 gap-2">
+          {/* <div className="flex items-center mt-8 gap-2">
             <Link href="#" className="hover:underline">
               View Project
             </Link>
             <span>
               <RiArrowRightUpLongLine />
             </span>
-          </div>
+          </div> */}
         </motion.div>
         {/* banner */}
-        <motion.figure variants={fadeInUp}>
+        <motion.figure
+          variants={fadeInUp}
+          initial="hidden"
+          animate="show"
+            
+        >
           <Image
             src={image}
             width={718}

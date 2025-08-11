@@ -23,7 +23,6 @@ const AboutSec = () => {
       >
         {/* Title */}
         <Title subtitle="About" title="I am Sergey" />
-        Divider
         <Divider />
         {/* Wrapper */}
         <div className="grid gap-4 lg:grid-cols-2 lg:items-center">
@@ -79,17 +78,17 @@ const AboutSec = () => {
                 <div>
                   <p>Email</p>
                   <a
-                    href="mailto:Sergeybraun@gmail.com"
+                    href="mailto:lipinvideo@gmail.com"
                     className="hover:underline"
                   >
-                    Sergeybraun@gmail.com
+                    lipinvideo@gmail.com
                   </a>
                 </div>
                 {/* Phone num */}
                 <div>
                   <p>Phone Number</p>
-                  <a href="tel:+00 000000000" className="hover:underline">
-                    +00 000000000
+                  <a href="tel:+19165077442" className="hover:underline">
+                    +19165077442
                   </a>
                 </div>
               </div>

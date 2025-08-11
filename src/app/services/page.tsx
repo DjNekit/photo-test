@@ -14,14 +14,14 @@ const Services = () => {
   return (
     <>
       <TopSec />
-      <ServicesIntroSec
+      {/* <ServicesIntroSec
         title="Portrait Photography"
         image="/images/services-banner-1.png"
         description="Our portrait photography service is all about showcasing your unique personality. Whether you need a professional headshot, a family portrait, or a personal photoshoot, we create images that reflect your true self. We work closely with you to bring out your best angles and expressions, ensuring every portrait tells your story."
-      />
-      <Divider />
+      /> */}
+      {/* <Divider /> */}
       {/* pricing secion */}
-      <section className="section">
+      {/* <section className="section">
         <div className="container grid gap-12">
           {servicePriceItems.map((item) => (
             <div className="grid lg:grid-cols-[0.4fr_1fr] gap-10" key={item.id}>
@@ -40,7 +40,7 @@ const Services = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <Divider />
       <ServicesIntroSec
@@ -71,14 +71,14 @@ const Services = () => {
         </div>
       </section>
 
-      <Divider />
-      <ServicesIntroSec
+      {/* <Divider /> */}
+      {/* <ServicesIntroSec
         title="Commercial Photography"
         description="In the world of business, a compelling image can make all the difference. Our commercial photography service is designed to enhance your brand's visual identity. We create striking images for your products, services, and marketing campaigns that leave a lasting impact on your audience."
         image="/images/services-banner-3.png"
-      />
+      /> */}
       {/* pricing secion */}
-      <section className="section">
+      {/* <section className="section">
         <div className="container grid gap-12">
           {servicePriceItemsThird.map((item) => (
             <div className="grid lg:grid-cols-[0.4fr_1fr] gap-10" key={item.id}>
@@ -97,7 +97,7 @@ const Services = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

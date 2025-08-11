@@ -12,6 +12,7 @@ const TopSec = () => {
       <motion.div
         variants={staggerContainer}
         initial="hidden"
+        animate="show"
         whileInView="show"
         viewport={{ once: true }}
         className="container relative"

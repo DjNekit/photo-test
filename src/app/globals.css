@@ -30,7 +30,7 @@ body {
     @apply text-2xl sm:text-3xl md:text-4xl font-semibold uppercase;
   }
   .section {
-    @apply pt-24 md:mt-40 md:mb-40;
+    @apply md:mt-40 md:mb-40;
   }
 }
 

@@ -16,6 +16,7 @@ const HeroSec = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
+        animate="show"
         viewport={{ once: true }}
       >
         {/* Content */}
