@@ -22,7 +22,7 @@ const AboutSec = () => {
         className="container"
       >
         {/* Title */}
-        <Title subtitle="About" title="I am Sergey" />
+        <Title subtitle="About" title="I am Sergei" />
         <Divider />
         {/* Wrapper */}
         <div className="grid gap-4 lg:grid-cols-2 lg:items-center">
