@@ -41,9 +41,11 @@ export const marqueeItems = [
 export const socialLinks = [
   {
     icon: RiFacebookFill,
+    href: 'https://www.facebook.com/profile.php?id=100066890284990'
   },
   {
     icon: RiInstagramFill,
+    href: '#'
   },
 ];
 

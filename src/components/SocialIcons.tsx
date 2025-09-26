@@ -1,11 +1,12 @@
 import React from "react";
 import { socialLinks } from "@/data/data";
+
 const SocialIcons = () => {
   return (
     <div className="flex gap-2 border-neutral-800 border max-w-max p-1 rounded-full items-center">
       {socialLinks.map((item, index) => (
         <a
-          href="#"
+          href={item.href}
           target="_blank"
           className="w-10 h-10 flex items-center justify-center rounded-full aspect-square hover:bg-neutral-300 transition-colors"
           key={index}
