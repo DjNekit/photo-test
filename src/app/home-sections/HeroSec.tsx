@@ -30,7 +30,7 @@ const HeroSec = () => {
               variants={fadeInUp}
               className="text-[40px] sm:text-5xl md;text-6xl font-semibold"
             >
-              Lipin Sergey
+              Sergei Lipin
             </motion.h1>
           </div>
 

@@ -12,9 +12,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Lipin Sergey | photographer portfolio",
+  title: "Sergei Lipin | photographer portfolio",
   description:
-    "Explore the portfolio of Lipin Sergey a professional photographer.",
+    "Explore the portfolio of Sergei Lipin a professional photographer.",
 };
 
 export default function RootLayout({
