@@ -27,12 +27,12 @@ const AboutSec = () => {
         {/* Wrapper */}
         <div className="grid gap-4 lg:grid-cols-2 lg:items-center">
           {/* Banner */}
-          <motion.figure variants={fadeInUp}>
+          <motion.figure variants={fadeInUp} className='h-full'>
             <Image
-              src="/images/about-section-banner.png"
+              src="/images/me-general-2.JPG"
               alt="about banner"
-              width={783}
-              height={710}
+              style={{ objectFit: 'cover' }}
+              fill
             />
           </motion.figure>
 

@@ -53,12 +53,14 @@ const HeroSec = () => {
         {/* Marquee */}
         <MarqueeSec />
         {/* Banner */}
-        <motion.figure variants={fadeInUp} className="container">
+        <motion.figure variants={fadeInUp} className="container h-[600px]">
           <Image
-            src="/images/hero-banner.png"
+            src="/images/main-banner.jpg"
+            // src="/images/hero-banner.png"
             alt="hero banner"
-            width={1280}
-            height={424}
+            // width={1280}
+            // height={424}
+            fill
             className="w-full h-full object-cover"
             priority
           />
