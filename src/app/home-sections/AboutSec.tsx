@@ -29,7 +29,7 @@ const AboutSec = () => {
           {/* Banner */}
           <motion.figure variants={fadeInUp} className='h-full'>
             <Image
-              src="/images/me-general-2.JPG"
+              src="/images/me-general-3.JPG"
               alt="about banner"
               style={{ objectFit: 'cover' }}
               fill

@@ -68,6 +68,13 @@ const PortfolioSec = () => {
             width: 200,
             height: 200,
           },
+          {
+            id: '7',
+            src: '/images/portfolio-img-13.jpg',
+            alt: '',
+            width: 200,
+            height: 200,
+          },
         ]}/> 
       </motion.div>
     </section>
