@@ -18,8 +18,8 @@ const Header = () => {
     <header className="border-b border-neutral-900">
       <div className="container flex justify-between items-center py-5 lg:pb-0">
         {/* Logo */}
-        <Link className="text-3xl font-medium uppercase" href={"/"}>
-          Sergei
+        <Link className="text-3xl font-medium" href={"/"}>
+          lipinvideo@gmail.com
         </Link>
 
         {/* Mobile menu */}
