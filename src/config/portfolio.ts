@@ -69,4 +69,18 @@ export const portfolioImages = [
         width: 200,
         height: 200,
     },
-]
+  {
+        id: '9',
+        src: '/images/portfolio-img-11.png',
+        alt: '',
+        width: 200,
+        height: 200,
+    },  
+    {
+        id: '9',
+        src: '/images/portfolio-img-12.png',
+        alt: '',
+        width: 200,
+        height: 200,
+    },] 
+        
