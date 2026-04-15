@@ -11,5 +11,6 @@ export const portfolioImages = [
     'portfolio-img-10.png',
     'portfolio-img-11.png',
     'portfolio-img-12.png',
+     portfolio-img-13.jpg
 ] 
         
