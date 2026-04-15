@@ -12,14 +12,14 @@ type ImageType = {
 };
 
 type GalleryProps = {
-    images: ImageType[];
+    images: string[];
 };
 
 const Gallery = ({ images }: GalleryProps) => {
-    const [selectedImage, setSelectedImage] = useState<ImageType | null>(null);
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const openModal = (image: ImageType, index: number) => {
+    const openModal = (image: string, index: number) => {
         setSelectedImage(image);
         setCurrentIndex(index);
     };
@@ -46,7 +46,7 @@ const Gallery = ({ images }: GalleryProps) => {
             <div className="grid gap-12 mt-20 md:grid-cols-2 lg:grid-cols-3">
                 {images.map((image, index) => (
                     <motion.div
-                        key={image.id}
+                        key={index}
                         className="relative overflow-hidden rounded-lg cursor-pointer aspect-square"
                         variants={fadeInUp}
                         whileHover={{ scale: 1.03 }}
@@ -54,8 +54,8 @@ const Gallery = ({ images }: GalleryProps) => {
                         onClick={() => openModal(image, index)}
                     >
                         <Image
-                            src={image.src}
-                            alt={image.alt}
+                            src={`/images/${image}`}
+                            alt={''}
                             width={499}
                             height={519}
                             loading="lazy"
@@ -83,10 +83,10 @@ const Gallery = ({ images }: GalleryProps) => {
                             onClick={(e) => e.stopPropagation()}
                         >
                             <Image
-                                src={selectedImage.src}
-                                alt={selectedImage.alt}
-                                width={selectedImage.width}
-                                height={selectedImage.height}
+                                src={`/images/${selectedImage}`}
+                                alt={''}
+                                width={200}
+                                height={200}
                                 className="w-full h-full object-contain max-h-[80vh]"
                             />
 
