@@ -1,6 +1,5 @@
 import {
   RiFacebookFill,
-  RiTwitterFill,
   RiInstagramFill
 } from "@remixicon/react";
 
