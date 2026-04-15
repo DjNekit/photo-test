@@ -70,14 +70,14 @@ export const portfolioImages = [
         height: 200,
     },
   {
-        id: '9',
+        id: '11',
         src: '/images/portfolio-img-11.png',
         alt: '',
         width: 200,
         height: 200,
     },  
     {
-        id: '9',
+        id: '12',
         src: '/images/portfolio-img-12.png',
         alt: '',
         width: 200,
